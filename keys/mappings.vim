@@ -21,5 +21,5 @@ nnoremap <C-l> <C-w>l
 nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Da
 nnoremap <M-k> :m 1<CR>
-nnoremap <M-k> :m -1<CR>
+nnoremap <M-j> :m -1<CR>
 nnoremap <M-e> :NERDTreeToggle<CR>

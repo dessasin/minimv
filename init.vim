@@ -13,5 +13,5 @@ source $HOME/.config/nvim/plug-config/echodoc.vim
 source $HOME/.config/nvim/plug-config/indentline.vim
 
 colorscheme falcon
-let g:lightline = {}
-let g:lightline.colorscheme = 'falcon'
+let g:airline_theme='falcon'
+

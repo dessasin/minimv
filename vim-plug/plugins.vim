@@ -7,7 +7,6 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
-  Plug 'dikiaap/minimalist'
   Plug 'fredericobenevides/line-mover.vim'
   Plug 'yggdroot/indentline'
   Plug 'wakatime/vim-wakatime'
@@ -54,8 +53,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'jbgutierrez/vim-better-comments'
   Plug 'Shougo/echodoc.vim'
   Plug 'https://github.com/vimwiki/vimwiki.git'
-
-
 call plug#end()
 
 " Automatically install missing plugins on startup

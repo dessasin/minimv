@@ -20,7 +20,8 @@
     \ 'coc-vetur',
     \ 'coc-stylelint', 
     \ 'coc-cssmodules',
-    \ 'coc-explorer'
+    \ 'coc-explorer',
+    \ 'coc-svelte'
     \ ]
 
 
