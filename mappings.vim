@@ -1,7 +1,7 @@
-"nnoremap <M-Up>    :resize -2<CR>
-"nnoremap <M-Down>    :resize +2<CR>
-"nnoremap <M-Left>    :vertical resize -2<CR>
-"nnoremap <M-Right>    :vertical resize +2<CR>
+nnoremap <M-Up>    :resize -2<CR>
+nnoremap <M-Down>    :resize +2<CR>
+nnoremap <M-Left>    :vertical resize +2<CR>
+nnoremap <M-Right>    :vertical resize -2<CR>
 inoremap jk <Esc>
 inoremap kj <Esc>
 nnoremap <TAB> :bnext<CR>
@@ -24,7 +24,6 @@ nnoremap <M-Q> :!q <CR>
 nnoremap <M-=><C-W>=<CR>
 nnoremap <M-/>:call Comment()<CR>
 " Remap Capital J/K to move up and down blocks
-nnoremap J }
-vmap J }
-nnoremap K {
-vmap K {
+nnoremap <S-j> } <CR>
+nnoremap <S-k> { <CR>
+nnoremap <M-m>:Startify<CR>

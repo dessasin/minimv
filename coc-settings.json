@@ -7,17 +7,14 @@
     "function": ""
   },
 
-  // diagnostics
   "diagnostic.errorSign": " ",
   "diagnostic.warningSign": " ",
   "diagnostic.infoSign": "",
   "diagnostic.hintSign": " ",
 
-  // list
   "list.indicator": ">",
   "list.selectedSignText": " ",
 
-  // autoformat
   "coc.preferences.formatOnSaveFiletypes": [
     "css",
     "markdown",
@@ -28,20 +25,20 @@
     "json",
     "python",
     "vue",
-    "typescript"
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
   ],
   "coc.preferences.hoverTarget": "float",
 
-  // explorer
-  "explorer.width": 25,
+  "explorer.width": 22,
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
-  "explorer.keyMappings": {
+  "explorer.keyMappings.global": {
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
   },
 
-  // snippets
   "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/snips"],
   "snippets.userSnippetsDirectory": "~/.config/nvim/snips",
 
@@ -58,4 +55,121 @@
       "ignoredRootPaths": ["~"]
     }
   }
+
+}{
+  "suggest.echodocSupport": true,
+
+  "suggest.completionItemKindLabels": {
+    "text": "t",
+    "method": "m",
+    "function": ""
+  },
+
+  "diagnostic.errorSign": " ",
+  "diagnostic.warningSign": " ",
+  "diagnostic.infoSign": "",
+  "diagnostic.hintSign": " ",
+
+  "list.indicator": ">",
+  "list.selectedSignText": " ",
+
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "javascript",
+    "graphql",
+    "html",
+    "yaml",
+    "json",
+    "python",
+    "vue",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  "coc.preferences.hoverTarget": "float",
+
+  "explorer.width": 22,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.keyMappings.global": {
+    "<cr>": ["expandable?", "expand", "open"],
+    "v": "open:vsplit"
+  },
+
+  "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/snips"],
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snips",
+
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "javascript": "javascriptreact",
+    "javascript": "javascriptvue"
+  },
+  "languageserver": {
+    "bash": {
+      "command": "bash-language-server",
+      "args": ["start"],
+      "filetypes": ["sh"],
+      "ignoredRootPaths": ["~"]
+    }
+  }
+
+}{
+  "suggest.echodocSupport": true,
+
+  "suggest.completionItemKindLabels": {
+    "text": "t",
+    "method": "m",
+    "function": ""
+  },
+
+  "diagnostic.errorSign": " ",
+  "diagnostic.warningSign": " ",
+  "diagnostic.infoSign": "",
+  "diagnostic.hintSign": " ",
+
+  "list.indicator": ">",
+  "list.selectedSignText": " ",
+
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "javascript",
+    "graphql",
+    "html",
+    "yaml",
+    "json",
+    "python",
+    "vue",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  "coc.preferences.hoverTarget": "float",
+
+  "explorer.width": 22,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.keyMappings.global": {
+    "<cr>": ["expandable?", "expand", "open"],
+    "v": "open:vsplit"
+  },
+
+  "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/snips"],
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snips",
+
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "javascript": "javascriptreact",
+    "javascript": "javascriptvue"
+  },
+  "languageserver": {
+    "bash": {
+      "command": "bash-language-server",
+      "args": ["start"],
+      "filetypes": ["sh"],
+      "ignoredRootPaths": ["~"]
+    }
+  }
+
 }

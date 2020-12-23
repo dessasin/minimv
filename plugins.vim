@@ -14,6 +14,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'maxmellon/vim-jsx-pretty'
   Plug 'tpope/vim-repeat'
   Plug 'tpope/vim-surround'
+  Plug 'mattn/emmet-vim'
   Plug 'tpope/vim-commentary'
   Plug 'airblade/vim-rooter'
   Plug 'christoomey/vim-tmux-navigator'
@@ -22,18 +23,19 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'junegunn/rainbow_parentheses.vim'
   Plug 'sheerun/vim-polyglot'
   Plug 'ryanoasis/vim-devicons'
-  Plug 'jiangmiao/auto-pairs'
   Plug 'alvan/vim-closetag'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-  Plug 'junegunn/fzf.vim'
-  Plug 'airblade/vim-gitgutter'
+  Plug 'mhinz/vim-signify'
   Plug 'tpope/vim-fugitive'
   Plug 'mhinz/vim-startify'
-  Plug 'honza/vim-snippets'
-  Plug 'mattn/emmet-vim'
+  Plug 'sirver/ultisnips'
+  Plug 'pangloss/vim-javascript'
+  Plug 'maxmellon/vim-jsx-pretty'
+  Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+
   "Plug 'https://github.com/vimwiki/vimwiki.git'
 call plug#end()
 

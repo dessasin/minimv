@@ -33,7 +33,9 @@ set nolazyredraw                        " Hopefully makes it so nvim doesn't get
 set ignorecase                          " Ignorecase when searching stuff
 set nowrap                              " Wrap lines when they are too long
 set wildcharm=<C-z>                     " Juggling with buffers
-
+set updatetime=50
+set noshowmode
+set signcolumn=yes
 autocmd Filetype css setlocal  tabstop=2 shiftwidth=2 softtabstop=2  " Set tabs to 2 spaces in html and css
 autocmd Filetype html setlocal  tabstop=2 shiftwidth=2 softtabstop=2 " Set tabs to 2 spaces in html and css
 autocmd Filetype javascript  setlocal  tabstop=2 shiftwidth=2 softtabstop=2  " Set tabs to 2 spaces in html and css

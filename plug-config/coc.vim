@@ -19,7 +19,6 @@
     \ 'coc-marketplace', 
     \ 'coc-vetur',
     \ 'coc-stylelint', 
-    \ 'coc-cssmodules',
     \ 'coc-explorer',
     \ 'coc-svelte'
     \ ]
